@@ -1,0 +1,8 @@
+.Home-main-container{
+    width: 80%;
+    /* border: 2px solid black; */
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+    margin-top: 50px !important;
+    
+}

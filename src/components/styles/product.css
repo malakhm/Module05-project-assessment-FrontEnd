@@ -1,0 +1,23 @@
+.Product-main-component-container{
+    /* border: 2px solid blue;   */
+    width: 100px;
+    height: 250px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    gap: 5px !important;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Product-img{
+    width: 100%;
+    height: 90px;
+}
+
+
+.Product-main-component-container p{
+    height: 30px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}

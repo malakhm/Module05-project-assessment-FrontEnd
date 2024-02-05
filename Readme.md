@@ -1,12 +1,54 @@
-# E-commerce application
+# Frontend Assessment for E-commerce Application
 
-## Starting your own store
+## Starting the Project
 
-In this project, you're required to start your own store that sells products to its customers(users).
-Think of any store you'd like and start listing out products for sale.
-The whole purpose of the webapp is to provide an E-commerce service to your customers where they can place and purchase their orders online
+1. **Fork Repository**: Begin by forking this repository to your local machine.
+2. **Create a New Branch**: Create a new branch with the name `firstname-lastname` to work on your project.
+3. **React Project**: Create a new React project.
 
 ## Instructions
 
-- Focus on making your application as simple as possible with only 3 pages (read front-end instructions).
-- Emphasize on making your application design look as attractive as possible.
+Design a web application and build it with React and any styling library of your choice. This application should allow guest users to view store products, and registered users to place orders of selected products. The interface should be user-friendly.
+
+## Requirements
+
+1. **Three Pages**:
+
+   - A page to display all the available products in your store.
+   - A page placing an order (it can be a popup).
+   - A login/register page.
+
+2. **Product Display Page**:
+
+   - List all available products.
+   - On click of each product, either redirect to login page or if logged in, re-route to checkout.
+   
+3. **Login/Register Page**:
+
+   - Allow the user to login or register.
+
+4. **Checkout page**
+   
+   - Allow registered users to view their added product(s)
+   - Allow registered users to choose payment method and submit their order (cash on delivery)
+   
+5. **Responsiveness**:
+
+   - Ensure the application works on mobile devices.
+
+## Bonus
+
+1. **Cart Feature**:
+
+   - Allow users to add multiple products to cart while browsing other products.
+
+2. **Search Feature**:
+
+   - Implement a products search functionality by title or description.
+
+3. **Sorting Feature**:
+   - Allow users to sort products by date created or by price(high/low).
+
+## Submission
+
+- After implementing the project, stage your changes, commit them, and push to your branch.
